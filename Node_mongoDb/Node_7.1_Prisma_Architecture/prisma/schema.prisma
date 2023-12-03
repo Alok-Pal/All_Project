@@ -1,0 +1,64 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model NewData {
+  id       String    @id @default(auto()) @map("_id") @db.ObjectId
+  
+}
+
+model GetAllData {
+  id       String     @id @default(auto()) @map("_id") @db.ObjectId
+  userList UserList[]
+}
+
+model UserList {
+  id        String  @id @default(auto()) @map("_id") @db.ObjectId
+  email     String  @unique
+  name      String
+  drugs     Drugs   @relation(fields: [drugsId], references: [id])
+  drugsId   String  @unique @db.ObjectId
+  invoice   Invoice @relation(fields: [invoiceId], references: [id])
+  invoiceId String  @unique @db.ObjectId
+
+  GetAllData   GetAllData? @relation(fields: [getAllDataId], references: [id])
+  getAllDataId String[]    @db.ObjectId
+
+ 
+}
+
+model Drugs {
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  drug_name    String
+  qty          String
+  manufacturer String
+  price        Int
+  UserList     UserList?
+}
+
+model Invoice {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  Price         String
+  Qty           Int
+  companyNameId String    @db.ObjectId
+  UserList      UserList?
+}
+
+model CompanyName {
+  id           String @id @default(auto()) @map("_id") @db.ObjectId
+  Company_Name String
+  Address      String
+  org          Org[]
+}
+
+model Org {
+  id        String      @id @default(auto()) @map("_id") @db.ObjectId
+  org_name  String
+  companyID String[]    @db.ObjectId
+  company   CompanyName @relation(fields: [companyID], references: [id])
+}

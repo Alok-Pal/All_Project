@@ -1,0 +1,43 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Imdb {
+  id      String   @id @default(auto()) @map("_id") @db.ObjectId
+  genre   String
+  ratings Int
+  movies  Movies[]
+}
+
+model Movies {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  movies_name String
+  parts       Int
+
+  imbdId String @db.ObjectId
+  Imbd   Imdb?   @relation(fields: [imbdId], references: [id])
+}
+
+// many to many relationship
+
+model Post {
+  id          String     @id @default(auto()) @map("_id") @db.ObjectId
+  article     String
+  categoryIDs String[]   @db.ObjectId
+  categories  Category[] @relation(fields: [categoryIDs], references: [id])
+}
+
+model Category {
+  id      String   @id @default(auto()) @map("_id") @db.ObjectId
+  name    String
+  postIDs String[] @db.ObjectId
+  posts   Post[]   @relation(fields: [postIDs], references: [id])
+}

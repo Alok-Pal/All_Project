@@ -1,0 +1,38 @@
+// LOOKUP
+const UserRelationalData = await User.aggregate([ {
+                    $lookup: {
+                        from: "invoices",
+                        localField: "Invoice_id",
+                        foreignField: "_id",
+                        as: "CustomerDetails",
+                    }, } ])
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+// when the collection have one refrence and that refrence have another so we use querylike that  (here unwind )
+//{{unwind}--> When a field in a MongoDB document is an array, MongoDB treats it as a single value. However, there are situations where you might want to treat each element of an array as a separate document. In such cases, you can use the $unwind operator to create a new document for each array element.}
+ // Lookup
+            const CustomerRelationalData = await User.aggregate([
+                {
+                  $lookup: {
+                    from: "invoices",
+                    localField: "Invoice_id",
+                    foreignField: "_id",
+                    as: "Invoice_Details"
+                  }
+                },
+                {
+                  $unwind: "$Invoice_Details"
+                },
+                {
+                  $lookup: {
+                    from: "companynames",
+                    localField: "Invoice_Details.Company_id",
+                    foreignField: "Org_id",
+                    as: "CompanyDetails"
+                  }
+                }
+              ]);
+------------------------------------------------------------------------------------------------------------------------              

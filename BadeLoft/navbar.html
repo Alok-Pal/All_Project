@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Source+Sans+Pro:wght@300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <img class="Dlogo" src="images/logo2.jpg" alt="">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 navItem">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Dashboard.html" >Dashboard </a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stock.html">Stock</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="status.html">Status</a>
+                    </li>
+                    <li class="nav-item assign">
+                        <a class="nav-link" href="#">Assignment</a>
+                    </li>
+
+
+
+                </ul>
+                <div class="getN d-flex ms-5 justify-content-end">
+                    <div class="">
+                        <img class="adminImg " src="images/person-18.png" alt="">
+                    </div>
+                    <div>
+                        <p class="welcome">Welcome</p><br>
+                        <p class="dynamicN"></p>
+                    </div>
+                </div>
+                <div class="ms-5" id="logout" onclick="logout()" style="cursor: pointer;">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <script src="jquery/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="Dashboard.js"></script>
+</body>
+
+</html>

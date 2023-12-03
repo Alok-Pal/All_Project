@@ -1,0 +1,67 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  email       String @unique
+  phoneNumber String
+  password    String
+}
+
+model supplier {
+  id      String    @id @default(auto()) @map("_id") @db.ObjectId
+  name    String
+  email   String
+  invoice Invoice[]
+}
+
+model Invoice {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  supplier   supplier @relation(fields: [supplierId], references: [id])
+  supplierId String   @db.ObjectId
+  field1     Int
+  field2     Int
+  field3     Int
+  field4     Int
+  field5     Int
+  field6     Int
+  field7     Int
+  field8     Int
+  field9     Int
+  field10    Int
+  field11    Int
+  Net        Int
+  Vat        Int
+  Advance    Int
+  Balance    Int
+  month      String
+  isApproved Boolean
+  isChkBox   Boolean
+}
+
+model Header {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  month    String
+  Custom1  String
+  Custom2  String
+  Custom3  String
+  Custom4  String
+  Custom5  String
+  Custom6  String
+  Custom7  String
+  Custom8  String
+  Custom9  String
+  Custom10 String
+  Custom11 String
+ 
+}

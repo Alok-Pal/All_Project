@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ShippingMethod {
+  id          String  @id
+  title       String
+  description String
+  links       Links[]
+}
+
+model Links {
+  id               Int         @id @default(autoincrement())
+  self             String[]
+  collection       String[]
+  ShippingMethod   ShippingMethod @relation(fields: [shippingMethodId], references: [id])
+  shippingMethodId String
+}

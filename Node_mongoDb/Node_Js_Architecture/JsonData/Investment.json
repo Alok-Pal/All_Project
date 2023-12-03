@@ -1,0 +1,141 @@
+{
+  "_id": "52e52927-b118-4f1c-847d-15cfe7a35fe8",
+  "InvestmentType": 1,
+  "CompanyName": "Freeman Sporting Goods",
+  "RepName": "0969 Ocean View Road",
+  "RepId": "afb1381c-ff14-4429-b556-f444cfce6ddb",
+  "ProductServices": {
+    "_id": "36",
+    "Name": "Keurig"
+  },
+  "Class": {
+    "_id": "5000000000000272807",
+    "Name": "Keurig"
+  },
+  "Program": {
+    "_id": "b92de7c0-858e-49a0-b408-96e4e35f0dee",
+    "Name": "H-22"
+  },
+  "Description": "",
+  "QBOEntityId": "365",
+  "QBOEntityNo": "INV141951110",
+  "Amount": 25000,
+  "ProcessingFee": 5000, 
+  "BrooklynInvestmentStatus": 5,
+  "PaybevInvestmentStatus": 1,
+  "IsPaybevConfirmed": true,  
+  "IsNonALC": false,
+  "SiteId": "25912607-331c-476c-b596-0a0c4ebf34f7",
+  "SiteName": "Keruing Site",
+  "Processfee": "5000",
+  "Stage": 1,
+  "CustomerDetails": {
+    "IsMapWithExisting": false,
+    "PayBevCustomerDetails": {
+      "_id": "afb1381c-ff14-4429-b556-f444cfce6ddb",
+      "QBOCustomerId": "8",
+      "QBOCustomerNo": null,
+      "Name": "0969 Ocean View Road",
+      "CompanyName": "Freeman Sporting Goods",
+      "StreetAddress1": "370 Easy St.",
+      "StreetAddress2": "",
+      "City": "Middlefield",
+      "State": "CA",
+      "ZIPCode": "94482",
+      "Country": "USA",
+      "IsAddLine": false,
+      "ParentRefId": "cf2f642d-e245-4d42-a4a6-a94ca1f588a9",
+      "Email": "Sporting_goods@intuit.com",
+      "PhoneNumber": "(415) 555-9933",
+      "MobileNumber": "(973) 555-8849",
+      "Terms": {
+        "_id": null,
+        "Name": null
+      },
+      "PaymentMethod": {
+        "_id": null,
+        "Name": null
+      }
+    },
+    "QuickBookCustomerDetails": {
+      "_id": null,
+      "QBOCustomerId": "8",
+      "QBOCustomerNo": null,
+      "Name": "0969 Ocean View Road",
+      "CompanyName": "Freeman Sporting Goods",
+      "StreetAddress1": "370 Easy St.",
+      "StreetAddress2": "",
+      "City": "Middlefield",
+      "State": "CA",
+      "ZIPCode": "94482",
+      "Country": null,
+      "IsAddLine": false,
+      "ParentRefId": "7",
+      "Email": "Sporting_goods@intuit.com",
+      "PhoneNumber": "(415) 555-9933",
+      "MobileNumber": "(973) 555-8849",
+      "Terms": {
+        "_id": null,
+        "Name": null
+      },
+      "PaymentMethod": {
+        "_id": null,
+        "Name": null
+      }
+    }
+  },
+  "InvestmentDetails": {
+    "PaybevInvestment": {
+      "ProductServices": {
+        "_id": "36",
+        "Name": "Keurig"
+      },
+      "Class": {
+        "_id": "5000000000000272807",
+        "Name": "Keurig"
+      },
+      "CompanyName": "Freeman Sporting Goods",
+      "RepName": "0969 Ocean View Road",
+      "RepId": "afb1381c-ff14-4429-b556-f444cfce6ddb",
+      "Memo": null,
+      "Amount": 25000,
+      "ProcessingFee": 5000,
+      "Fee": "20",
+      "IsEstimate": true,
+      "Description": "",
+      "LinkedEstimateNo": null,
+      "LinkedEstimateId": null,
+      "LinkedInvoiceNo": "1993",
+      "LinkedInvoiceId": "366"
+    },
+    "QuickBookInvestment": {
+      "UserId": "aea1a4d4-014d-4be1-bd59-5a37845af442",
+      "UserName": "Super Admin",
+      "ProductServices": {
+        "_id": "36",
+        "Name": "Keurig"
+      },
+      "Class": {
+        "_id": "5000000000000272807",
+        "Name": "Keurig"
+      },
+      "Description": "",
+      "Memo": null,
+      "Amount": 25000,
+      "ProcessingFee": 5000,
+      "QBOEntityId": "365",
+      "QBOEntityNo": "INV141951110",
+      "PaymentId": null
+    }
+  },
+  "Comment": null,
+  "CreatedBy": "Super Admin",
+  "CreatedById": "aea1a4d4-014d-4be1-bd59-5a37845af442",  
+  "ModifyBy": "Super Admin",  
+  "ApproverBy": "Super Admin",
+  "ApproverId": "aea1a4d4-014d-4be1-bd59-5a37845af442", 
+  "IsLinkedEstimate": false,
+  "CancelReason": null,
+  "TransactionsNo": null,
+  "QBOInvoiceLink": null
+}

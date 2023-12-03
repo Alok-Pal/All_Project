@@ -1,0 +1,657 @@
+[
+    {
+        "Company_id": "c3c13c2e-5019-4719-8f01-e79ae9097a24",
+        "first_name": "Lorna",
+        "last_name": "Dunphie",
+        "email": "ldunphie0@gmpg.org",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "c3c13c2e-5019-4719-8f01-e79ae9097a24",
+        "first_name": "Aland",
+        "last_name": "Medlicott",
+        "email": "amedlicott1@tamu.edu",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "c3c13c2e-5019-4719-8f01-e79ae9097a24",
+        "first_name": "Albertine",
+        "last_name": "Venable",
+        "email": "avenable2@goo.ne.jp",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "49e2ac7b-f8d9-47ce-ae90-14c50ca88b16",
+        "first_name": "Baudoin",
+        "last_name": "Golder",
+        "email": "bgolder3@narod.ru",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "2dcc2718-5794-41dd-b896-b9bfc2c7cd4e",
+        "first_name": "Emmett",
+        "last_name": "Ledrane",
+        "email": "eledrane4@is.gd",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "49e2ac7b-f8d9-47ce-ae90-14c50ca88b16",
+        "first_name": "Brenn",
+        "last_name": "Jancic",
+        "email": "bjancic5@mlb.com",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "2dcc2718-5794-41dd-b896-b9bfc2c7cd4e",
+        "first_name": "Tine",
+        "last_name": "Daffern",
+        "email": "tdaffern6@yellowpages.com",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "49e2ac7b-f8d9-47ce-ae90-14c50ca88b16",
+        "first_name": "Teador",
+        "last_name": "Zolini",
+        "email": "tzolini7@angelfire.com",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "2dcc2718-5794-41dd-b896-b9bfc2c7cd4e",
+        "first_name": "Meggie",
+        "last_name": "Staig",
+        "email": "mstaig8@uol.com.br",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "d7755682-aea1-48e1-9c83-6ff923a6e247",
+        "first_name": "Rolfe",
+        "last_name": "Lyenyng",
+        "email": "rlyenyng9@cbslocal.com",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "db3dd38c-a578-4954-8272-61e56f58f243",
+        "first_name": "Evelin",
+        "last_name": "Bryett",
+        "email": "ebryetta@a8.net",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "1bffd53d-0bec-4895-870b-53d46bd0b7b9",
+        "first_name": "Edy",
+        "last_name": "Kaming",
+        "email": "ekamingb@wikia.com",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "d7755682-aea1-48e1-9c83-6ff923a6e247",
+        "first_name": "Gweneth",
+        "last_name": "Merigot",
+        "email": "gmerigotc@github.io",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "1bffd53d-0bec-4895-870b-53d46bd0b7b9",
+        "first_name": "Cash",
+        "last_name": "Cochran",
+        "email": "ccochrand@house.gov",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "d7755682-aea1-48e1-9c83-6ff923a6e247",
+        "first_name": "Lizzie",
+        "last_name": "Gasson",
+        "email": "lgassone@shinystat.com",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "1bffd53d-0bec-4895-870b-53d46bd0b7b9",
+        "first_name": "Christy",
+        "last_name": "Anney",
+        "email": "canneyf@chronoengine.com",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "db3dd38c-a578-4954-8272-61e56f58f243",
+        "first_name": "Gennifer",
+        "last_name": "Brahams",
+        "email": "gbrahamsg@jiathis.com",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+        "first_name": "Kitty",
+        "last_name": "Kinglesyd",
+        "email": "kkinglesydh@livejournal.com",
+        "gender": "Female"
+    },
+    {
+        "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+        "first_name": "Hewie",
+        "last_name": "Mahood",
+        "email": "hmahoodi@va.gov",
+        "gender": "Male"
+    },
+    {
+        "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+        "first_name": "Faber",
+        "last_name": "Guerrieri",
+        "email": "fguerrierij@wsj.com",
+        "gender": "Male"
+    }
+]
+[
+    {
+        "Company_id": "2dcc2718-5794-41dd-b896-b9bfc2c7cd4e",
+        "Price": 9586,
+        "Qty": 14
+    },
+    {
+        "Company_id": "c3c13c2e-5019-4719-8f01-e79ae9097a24",
+        "Price": 1007,
+        "Qty": 37
+    },
+    {
+        "Company_id": "2dcc2718-5794-41dd-b896-b9bfc2c7cd4e",
+        "Price": 9854,
+        "Qty": 24
+    },
+    {
+        "Company_id": "c3c13c2e-5019-4719-8f01-e79ae9097a24",
+        "Price": 4183,
+        "Qty": 61
+    },
+    {
+        "Company_id": "2dcc2718-5794-41dd-b896-b9bfc2c7cd4e",
+        "Price": 2062,
+        "Qty": 93
+    },
+    {
+        "Company_id": "26e4f2d8-4407-4259-bb10-632de7d8c8fd",
+        "Price": 7222,
+        "Qty": 56
+    },
+    {
+        "Company_id": "26e4f2d8-4407-4259-bb10-632de7d8c8fd",
+        "Price": 4464,
+        "Qty": 86
+    },
+    {
+        "Company_id": "1bffd53d-0bec-4895-870b-53d46bd0b7b9",
+        "Price": 5011,
+        "Qty": 29
+    },
+    {
+        "Company_id": "26e4f2d8-4407-4259-bb10-632de7d8c8fd",
+        "Price": 4143,
+        "Qty": 90
+    },
+    {
+        "Company_id": "d2454496-bd77-47bb-bf9f-5fc0b94cf823",
+        "Price": 5645,
+        "Qty": 94
+    },
+    {
+        "Company_id": "d2454496-bd77-47bb-bf9f-5fc0b94cf823",
+        "Price": 8049,
+        "Qty": 59
+    },
+    {
+        "Company_id": "26e4f2d8-4407-4259-bb10-632de7d8c8fd",
+        "Price": 6771,
+        "Qty": 13
+    },
+    {
+        "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+        "Price": 9295,
+        "Qty": 19
+    },
+    {
+        "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+        "Price": 4837,
+        "Qty": 63
+    },
+    {
+        "Company_id": "d2454496-bd77-47bb-bf9f-5fc0b94cf823",
+        "Price": 3204,
+        "Qty": 19
+    },
+    {
+        "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+        "Price": 2897,
+        "Qty": 22
+    },
+    {
+        "Company_id": "d2454496-bd77-47bb-bf9f-5fc0b94cf823",
+        "Price": 1750,
+        "Qty": 99
+    },
+    {
+        "Company_id": "49e2ac7b-f8d9-47ce-ae90-14c50ca88b16",
+        "Price": 1314,
+        "Qty": 31
+    },
+    {
+        "Company_id": "d2454496-bd77-47bb-bf9f-5fc0b94cf823",
+        "Price": 9043,
+        "Qty": 41
+    },
+    {
+        "Company_id": "49e2ac7b-f8d9-47ce-ae90-14c50ca88b16",
+        "Price": 5766,
+        "Qty": 81
+    }
+]
+
+
+
+
+
+_id
+644b630bf2eb8602ffe956ab
+Company_id
+"2dcc2718-5794-41dd-b896-b9bfc2c7cd4e"
+Price
+9586
+Qty
+14
+_id
+644b630bf2eb8602ffe956ac
+Company_id
+"c3c13c2e-5019-4719-8f01-e79ae9097a24"
+Price
+1007
+Qty
+37
+_id
+644b630bf2eb8602ffe956ad
+Company_id
+"2dcc2718-5794-41dd-b896-b9bfc2c7cd4e"
+Price
+9854
+Qty
+24
+_id
+644b630bf2eb8602ffe956ae
+Company_id
+"c3c13c2e-5019-4719-8f01-e79ae9097a24"
+Price
+4183
+Qty
+61
+_id
+644b630bf2eb8602ffe956af
+Company_id
+"2dcc2718-5794-41dd-b896-b9bfc2c7cd4e"
+Price
+2062
+Qty
+93
+_id
+644b630bf2eb8602ffe956b0
+Company_id
+"26e4f2d8-4407-4259-bb10-632de7d8c8fd"
+Price
+7222
+Qty
+56
+_id
+644b630bf2eb8602ffe956b1
+Company_id
+"26e4f2d8-4407-4259-bb10-632de7d8c8fd"
+Price
+4464
+Qty
+86
+_id
+644b630bf2eb8602ffe956b2
+Company_id
+"1bffd53d-0bec-4895-870b-53d46bd0b7b9"
+Price
+5011
+Qty
+29
+_id
+644b630bf2eb8602ffe956b3
+Company_id
+"26e4f2d8-4407-4259-bb10-632de7d8c8fd"
+Price
+4143
+Qty
+90
+_id
+644b630bf2eb8602ffe956b4
+Company_id
+"d2454496-bd77-47bb-bf9f-5fc0b94cf823"
+Price
+5645
+Qty
+94
+_id
+644b630bf2eb8602ffe956b5
+Company_id
+"d2454496-bd77-47bb-bf9f-5fc0b94cf823"
+Price
+8049
+Qty
+59
+_id
+644b630bf2eb8602ffe956b6
+Company_id
+"26e4f2d8-4407-4259-bb10-632de7d8c8fd"
+Price
+6771
+Qty
+13
+_id
+644b630bf2eb8602ffe956b7
+Company_id
+"c72b4b82-d6c6-4961-bb7f-3adf76b1988a"
+Price
+9295
+Qty
+19
+_id
+644b630bf2eb8602ffe956b8
+Company_id
+"c72b4b82-d6c6-4961-bb7f-3adf76b1988a"
+Price
+4837
+Qty
+63
+_id
+644b630bf2eb8602ffe956b9
+Company_id
+"d2454496-bd77-47bb-bf9f-5fc0b94cf823"
+Price
+3204
+Qty
+19
+_id
+644b630bf2eb8602ffe956ba
+Company_id
+"c72b4b82-d6c6-4961-bb7f-3adf76b1988a"
+Price
+2897
+Qty
+22
+_id
+644b630bf2eb8602ffe956bb
+Company_id
+"d2454496-bd77-47bb-bf9f-5fc0b94cf823"
+Price
+1750
+Qty
+99
+_id
+644b630bf2eb8602ffe956bc
+Company_id
+"49e2ac7b-f8d9-47ce-ae90-14c50ca88b16"
+Price
+1314
+Qty
+31
+_id
+644b630bf2eb8602ffe956bd
+Company_id
+"d2454496-bd77-47bb-bf9f-5fc0b94cf823"
+Price
+9043
+Qty
+41
+_id
+644b630bf2eb8602ffe956be
+Company_id
+"49e2ac7b-f8d9-47ce-ae90-14c50ca88b16"
+Price
+5766
+Qty
+81
+
+
+
+
+
+
+
+
+
+
+[
+    {
+        "first_name": "Sargent",
+        "last_name": "Baccas",
+        "email": "sbaccas0@simplemachines.org",
+        "gender": "Male",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956ab")
+    },
+    {
+        "first_name": "Marthe",
+        "last_name": "Judd",
+        "email": "mjudd1@webs.com",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956be")
+    },
+    {
+        "first_name": "Edmund",
+        "last_name": "Dowd",
+        "email": "edowd2@kickstarter.com",
+        "gender": "Agender",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956ba")
+    },
+    {
+        "first_name": "Donella",
+        "last_name": "Opdenorth",
+        "email": "dopdenorth3@merriam-webster.com",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b8")
+    },
+    {
+        "first_name": "Maryjane",
+        "last_name": "Gasquoine",
+        "email": "mgasquoine4@yahoo.com",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b3")
+    },
+    {
+        "first_name": "Goldarina",
+        "last_name": "Petkens",
+        "email": "gpetkens5@nih.gov",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b5")
+    },
+    {
+        "first_name": "Poppy",
+        "last_name": "Siemens",
+        "email": "psiemens6@spotify.com",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956ac")
+    },
+    {
+        "first_name": "Goddart",
+        "last_name": "Braysher",
+        "email": "gbraysher7@over-blog.com",
+        "gender": "Male",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b0")
+    },
+    {
+        "first_name": "Jessa",
+        "last_name": "Normanville",
+        "email": "jnormanville8@aboutads.info",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b7")
+    },
+    {
+        "first_name": "Car",
+        "last_name": "Everall",
+        "email": "ceverall9@un.org",
+        "gender": "Male",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b1")
+    },
+    {
+        "first_name": "Jamil",
+        "last_name": "Vinten",
+        "email": "jvintena@ustream.tv",
+        "gender": "Male",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956af")
+    },
+    {
+        "first_name": "Davin",
+        "last_name": "Mylan",
+        "email": "dmylanb@bloglines.com",
+        "gender": "Male",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956ae")
+    },
+    {
+        "first_name": "Ruthe",
+        "last_name": "Semens",
+        "email": "rsemensc@twitpic.com",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956ad")
+    },
+    {
+        "first_name": "Ilse",
+        "last_name": "Chopin",
+        "email": "ichopind@exblog.jp",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956bd")
+    },
+    {
+        "first_name": "Cornela",
+        "last_name": "Benoi",
+        "email": "cbenoie@goo.gl",
+        "gender": "Genderfluid",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956bc")
+    },
+    {
+        "first_name": "Seana",
+        "last_name": "Halfhyde",
+        "email": "shalfhydef@nyu.edu",
+        "gender": "Female",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956bb")
+    },
+    {
+        "first_name": "Gav",
+        "last_name": "Careless",
+        "email": "gcarelessg@google.com.au",
+        "gender": "Male",
+        "Invoice_id": ObjectId ("644b630bf2eb8602ffe956b9")
+    },
+]
+{
+    "first_name": "Jeanna",
+    "last_name": "Menco",
+    "email": "jmencoh@msu.edu",
+    "gender": "Female",
+    "Invoice_id": null
+},
+{
+    "first_name": "Tove",
+    "last_name": "Eyes",
+    "email": "teyesi@google.pl",
+    "gender": "Genderqueer",
+    "Invoice_id": null
+},
+{
+    "first_name": "Iolande",
+    "last_name": "Volkes",
+    "email": "ivolkesj@merriam-webster.com",
+    "gender": "Genderqueer",
+    "Invoice_id": null
+},
+{
+    "first_name": "Neile",
+    "last_name": "Hailwood",
+    "email": "nhailwoodk@house.gov",
+    "gender": "Bigender",
+    "Invoice_id": null
+},
+{
+    "first_name": "Hynda",
+    "last_name": "Matashkin",
+    "email": "hmatashkinl@merriam-webster.com",
+    "gender": "Female",
+    "Invoice_id": null
+},
+{
+    "first_name": "Tracey",
+    "last_name": "Olyet",
+    "email": "tolyetm@salon.com",
+    "gender": "Female",
+    "Invoice_id": null
+},
+{
+    "first_name": "Amalie",
+    "last_name": "Schutter",
+    "email": "aschuttern@indiatimes.com",
+    "gender": "Female",
+    "Invoice_id": null
+},
+{
+    "first_name": "Mommy",
+    "last_name": "Freyne",
+    "email": "mfreyneo@fotki.com",
+    "gender": "Non-binary",
+    "Invoice_id": null
+},
+{
+    "first_name": "Constantina",
+    "last_name": "Feasby",
+    "email": "cfeasbyp@usgs.gov",
+    "gender": "Female",
+    "Invoice_id": null
+},
+{
+    "first_name": "Clarance",
+    "last_name": "Suggey",
+    "email": "csuggeyq@google.co.jp",
+    "gender": "Male",
+    "Invoice_id": null
+},
+{
+    "first_name": "Clifford",
+    "last_name": "MacKilroe",
+    "email": "cmackilroer@biglobe.ne.jp",
+    "gender": "Male",
+    "Invoice_id": null
+},
+{
+    "first_name": "Winna",
+    "last_name": "Bowld",
+    "email": "wbowlds@who.int",
+    "gender": "Female",
+    "Invoice_id": null
+},
+{
+    "first_name": "Leonerd",
+    "last_name": "Redpath",
+    "email": "lredpatht@123-reg.co.uk",
+    "gender": "Male",
+    "Invoice_id": null
+}
+// whole organisation id
+{
+    "Company_id": "c72b4b82-d6c6-4961-bb7f-3adf76b1988a",
+    "Customer_id":  ObjectId('644b6a0bf2eb8602ffe956bf'),
+    "Customer_Invoices_id": [
+        "644b630bf2eb8602ffe956ab",
+        "644b630bf2eb8602ffe956ac"
+    ],
+    "Employee_id": "c3c13c2e-5019-4719-8f01-e79ae9097a24"
+}
+// querries
+
+  db.Invoice.aggregate({})
+
+
+  // Code to get the data of both documnets which is added as the refrence
+  db.Invoice.aggregate([
+    {
+      $lookup: {
+        from: "CompanyName",
+        localField: "Company_id",
+        foreignField: "Org_id",
+        as: "Invoice_details",
+        },
+    }
+])
